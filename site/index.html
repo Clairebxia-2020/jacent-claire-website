@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Line Review — Internal Product Review</title>
+<link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+<header class="site-header">
+  <div class="site-header__inner">
+    <a href="#/" class="wordmark">Line<span>Review</span></a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="#/" data-nav="home">Home</a>
+      <a href="#/collection/handoff-2026" data-nav="handoff-2026">2026 Handoff</a>
+      <a href="#/collection/candle" data-nav="candle">Candles &amp; Party</a>
+      <a href="#/collection/proseries" data-nav="proseries">Pro Series</a>
+    </nav>
+
+    <div class="header-search">
+      <input type="search" id="globalSearch" placeholder="Search SKU or product name…" autocomplete="off" />
+      <div class="search-results" id="searchResults" hidden></div>
+    </div>
+  </div>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <p>Line Review — internal packaging &amp; product photography reference. Not for external distribution.</p>
+</footer>
+
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox__close" id="lightboxClose" aria-label="Close">&times;</button>
+  <button class="lightbox__nav lightbox__nav--prev" id="lightboxPrev" aria-label="Previous image">&#8249;</button>
+  <img class="lightbox__img" id="lightboxImg" src="" alt="" />
+  <button class="lightbox__nav lightbox__nav--next" id="lightboxNext" aria-label="Next image">&#8250;</button>
+  <div class="lightbox__caption" id="lightboxCaption"></div>
+</div>
+
+<script src="assets/js/products.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>

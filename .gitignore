@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+
+# Dependencies (not currently used by this project — included as a safe default)
+node_modules/
+
+# Local-only Claude Code settings (machine-specific permissions, not project config)
+.claude/settings.local.json
+
+# Build artifacts — regenerate with site/build-share-assets.ps1 then site/build-share.sh
+site/assets/js/data-uris.generated.js
+site/line-review-share.html
+
+# Original source photography — duplicated in site/assets/img, which is what the
+# site actually reads from. Kept locally only to avoid ~111MB of duplicate binaries.
+Product Images/
